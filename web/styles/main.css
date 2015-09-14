@@ -1,29 +1,32 @@
 /*
 (c) Alexandra Meads 2015)
 */
-body {
-    font-family: century gothic, arial, sans-serif;
-}
 .h1header {
     font-size: 40px;
-    margin-left: 150px;
-    color: orange;
+    margin-left: 125px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    /*color: orange;
     font-style: italic;
-    text-shadow: 3px 3px black;
+    text-shadow: 3px 3px black;*/
 }
 .h2header {
-    font-size: 30px;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 .h3header {
     font-size: 18px;
-    margin-left: 150px;
+    margin-left: 125px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
 }
 .links {
     font-weight: bold;
     color: orange;
-}
-li {
-    padding-bottom: 10px;
 }
 .links:hover {
     color:green; 
@@ -31,14 +34,52 @@ li {
 .links:focus {
     color: green;
 }
-#welcome::first-letter {
-    font-size: 60px;
+html {
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: century gothic, arial, sans-serif;
+    width: 800px;
+    background-color: white;
+    box-shadow: 2px 5px 5px 10px black;
+}
+header {
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange, black);
+}
+ul {
+    margin-left: 10px;
+}
+li {
+    padding-bottom: 10px;
+}
+p {
+    margin-left: 10px;
+}
+footer {
+    font-size: 14px;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange, white);
+    padding: 8px;
 }
 #pumpkinimg {
     float: left;
+    padding: 15px;
 }
-footer {
-    font-size: 12px;
+#welcome::first-letter {
+    font-size: 60px;
+}
+#pageBody {
+    border-style: solid;
+    border-width: 3px 0px;
+    border-color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#foot {
     position: relative;
-    left: 45%;
+    left: 40%;
 }
