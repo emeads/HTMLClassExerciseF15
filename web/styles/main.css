@@ -1,0 +1,44 @@
+/*
+(c) Alexandra Meads 2015)
+*/
+body {
+    font-family: century gothic, arial, sans-serif;
+}
+.h1header {
+    font-size: 40px;
+    margin-left: 150px;
+    color: orange;
+    font-style: italic;
+    text-shadow: 3px 3px black;
+}
+.h2header {
+    font-size: 30px;
+}
+.h3header {
+    font-size: 18px;
+    margin-left: 150px;
+}
+.links {
+    font-weight: bold;
+    color: orange;
+}
+li {
+    padding-bottom: 10px;
+}
+.links:hover {
+    color:green; 
+}
+.links:focus {
+    color: green;
+}
+#welcome::first-letter {
+    font-size: 60px;
+}
+#pumpkinimg {
+    float: left;
+}
+footer {
+    font-size: 12px;
+    position: relative;
+    left: 45%;
+}
