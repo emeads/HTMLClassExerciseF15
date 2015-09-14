@@ -11,11 +11,15 @@
     font-style: italic;
     text-shadow: 3px 3px black;*/
 }
+.h2header.clear {
+    clear: both;
+}
 .h2header {
     font-size: 28px;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
     margin-bottom: 0px;
+    margin-right: 0px;
 }
 .h3header {
     font-size: 18px;
@@ -51,10 +55,15 @@ header {
     background: linear-gradient(45deg, white, orange, black);
 }
 ul {
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
 }
 li {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 p {
     margin-left: 10px;
@@ -65,9 +74,19 @@ footer {
     background: linear-gradient(45deg, black, orange, white);
     padding: 8px;
 }
+footer.clear {
+    clear: both;
+}
 #pumpkinimg {
     float: left;
     padding: 15px;
+}
+#sidebar {
+    width: 160px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+    float: left;
 }
 #welcome::first-letter {
     font-size: 60px;
@@ -76,8 +95,14 @@ footer {
     border-style: solid;
     border-width: 3px 0px;
     border-color: black;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+#content{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
 }
 #foot {
     position: relative;
