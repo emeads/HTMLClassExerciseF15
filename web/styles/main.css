@@ -53,10 +53,10 @@ body {
 header {
     background-color: orange;
     background: linear-gradient(45deg, white, orange, black);
+    padding-bottom: 5px;
 }
 ul {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
     padding: 0px;
 }
 li {
@@ -85,8 +85,10 @@ footer.clear {
     width: 160px;
     padding: 0px;
     margin: 0px;
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
     float: left;
+
 }
 #welcome::first-letter {
     font-size: 60px;
@@ -97,12 +99,15 @@ footer.clear {
     border-color: black;
     margin: 0px;
     padding: 0px;
+    clear: both;
 }
 #content{
-    position: relative;
+    /*position: relative;
     left: 0px;
-    top: 0px;
+    top: 0px;*/
     overflow: hidden;
+    padding: 0px;
+    margin: 0px;
 }
 #foot {
     position: relative;
