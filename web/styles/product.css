@@ -16,8 +16,8 @@
 }
 .h2header {
     font-size: 28px;
-    margin-left: 5px;
-    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
 }
 .h3header {
     font-size: 24px;
@@ -38,6 +38,7 @@
 .side {
     list-style: none;
     margin: 20px;
+    margin-right: 0px;
     width: 160px;
 }
 .sideLinks {
@@ -51,14 +52,29 @@
     text-decoration: none;
     width: 100%;
 }
+.catDesc {
+    margin-left: 10px;
+    max-width: 430px;
+}
+.smallImg {
+    height: 50px;
+    width: 50px;
+}
+.productLinks {
+    text-decoration: none;
+    color: black;
+}
+.productLinks:focus {
+    color: green;
+}
+.productLinks:hover {
+    color: green;
+}
 .topLinks {
     text-decoration: none;
     color: white;
     font-weight: bold;
     text-align: center;
-}
-.topLinks:current {
-    color:orange;
 }
 .topLinks:hover {
     background-color: gray;
@@ -80,9 +96,6 @@ header {
     background-color: orange;
     background: linear-gradient(45deg, white, orange, black);
     padding-bottom: 5px;
-}
-p {
-    margin-left: 10px;
 }
 footer {
     font-size: 14px;
@@ -107,17 +120,28 @@ footer.clear {
     background-color: black;
     width: 800px;
 }
-#welcome::first-letter {
-    font-size: 60px;
-}
 #pageBody {
+    background-color: white;
     border-color: black;
     border-style: solid;
     border-width: 3px 0px;
     clear: both;
+    height: 288px;
 }
-#content{
-    overflow: hidden;
+#catimg {
+    float: left;
+    padding: 10px;
+}
+#content {
+    float: left;
+}
+#right {
+    list-style: none;
+}
+#rightBar {
+    background-color: #F5DEB3;
+    float: right;
+    width: 180px;
 }
 #foot {
     position: relative;
