@@ -1,0 +1,125 @@
+/*
+(c) Alexandra Meads 2015
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.h1header {
+    font-size: 40px;
+    margin-left: 125px;
+    margin-top: 3px;
+    padding-top: 20px;
+}
+.h2header.clear {
+    clear: both;
+}
+.h2header {
+    font-size: 28px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.h3header {
+    font-size: 24px;
+    margin-left: 125px;
+    padding-bottom: 20px;
+}
+.side {
+    list-style: none;
+    margin: 20px;
+    width: 160px;
+}
+.sideLinks {
+    background-color: orange;
+    border-style: solid;
+    border-color: black;  
+    border-width: 2px;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+.topLinks {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.topLinks:hover {
+    background-color: gray;
+    color: black;
+}
+html {
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+body {
+    background-color: white;
+    box-shadow: 2px 5px 5px 10px black;
+    font-family: century gothic, arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+header {
+    background-color: orange;
+    background: linear-gradient(45deg, white, orange, black);
+    padding-bottom: 5px;
+}
+div p {
+    padding-bottom: 100px;
+}
+p {
+    margin-left: 10px;
+}
+footer {
+    font-size: 14px;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange, white);
+    padding: 8px;
+}
+footer.clear {
+    clear: both;
+}
+#pumpkinimg {
+    float: left;
+    padding: 15px;
+}
+#sidebar {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 160px;
+}
+#topnav {
+    background-color: black;
+    width: 800px;
+}
+#pageBody {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px 0px;
+    clear: both;
+}
+#foot {
+    position: relative;
+    left: 40%;
+}
+#props {
+    padding-left: 10px;
+    padding-right: 64px;
+}
+#costumes {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+#special {
+    padding-left: 10px;
+    padding-right: 25.5px;
+}
+#masks {
+    padding-left: 10px;
+    padding-right: 58px;
+}
